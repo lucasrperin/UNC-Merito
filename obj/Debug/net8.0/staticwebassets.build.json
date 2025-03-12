@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "4kYaMR4aZjdtaKBQHjAzbdqHVzq4b7foeDdAad05GIc=",
+  "Hash": "by1czE2858cpSKc0/jJYaVieBqzGNCq7/aBpmUkhTjA=",
   "Source": "MeritoHealth",
   "BasePath": "_content/MeritoHealth",
   "Mode": "Default",
@@ -31,8 +31,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ApplicationBundle",
-      "Fingerprint": "vpbujdehos",
-      "Integrity": "0/3zBUGP3gFScgooWVvW5M/nWXm7zyvXjEwV8dIubSs=",
+      "Fingerprint": "fwz77yi5dj",
+      "Integrity": "gb8NFb0dk4D8pLXUYzfGJFC659jf3BwUlZlYqlNopyc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\User\\Desktop\\Merito\\UNC-Merito\\obj\\Debug\\net8.0\\scopedcss\\bundle\\MeritoHealth.styles.css"
@@ -52,19 +52,19 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ProjectBundle",
-      "Fingerprint": "vpbujdehos",
-      "Integrity": "0/3zBUGP3gFScgooWVvW5M/nWXm7zyvXjEwV8dIubSs=",
+      "Fingerprint": "fwz77yi5dj",
+      "Integrity": "gb8NFb0dk4D8pLXUYzfGJFC659jf3BwUlZlYqlNopyc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\User\\Desktop\\Merito\\UNC-Merito\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\MeritoHealth.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\Merito\\UNC-Merito\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\User\\Desktop\\Merito\\UNC-Merito\\wwwroot\\css\\styles.css",
       "SourceId": "MeritoHealth",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\Desktop\\Merito\\UNC-Merito\\wwwroot\\",
       "BasePath": "_content/MeritoHealth",
-      "RelativePath": "css/site#[.{fingerprint}]?.css",
+      "RelativePath": "css/styles#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -73,11 +73,11 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "xucksheet4",
-      "Integrity": "56E3OYQdKj6WZCUTZEx17QYXCrxURhR7VIu63nBwsMw=",
+      "Fingerprint": "tffyftg7z6",
+      "Integrity": "qUWdDEGqLJJqypSiy4g1XIQ5VJnTQvyslV6ljZnRdtY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\site.css"
+      "OriginalItemSpec": "wwwroot\\css\\styles.css"
     },
     {
       "Identity": "C:\\Users\\User\\Desktop\\Merito\\UNC-Merito\\wwwroot\\favicon.ico",
@@ -1321,8 +1321,8 @@
   ],
   "Endpoints": [
     {
-      "Route": "css/site.css",
-      "AssetFile": "C:\\Users\\User\\Desktop\\Merito\\UNC-Merito\\wwwroot\\css\\site.css",
+      "Route": "css/styles.css",
+      "AssetFile": "C:\\Users\\User\\Desktop\\Merito\\UNC-Merito\\wwwroot\\css\\styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1331,7 +1331,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "292025"
+          "Value": "292028"
         },
         {
           "Name": "Content-Type",
@@ -1339,11 +1339,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"56E3OYQdKj6WZCUTZEx17QYXCrxURhR7VIu63nBwsMw=\""
+          "Value": "\"qUWdDEGqLJJqypSiy4g1XIQ5VJnTQvyslV6ljZnRdtY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 12 Mar 2025 00:14:15 GMT"
+          "Value": "Wed, 12 Mar 2025 00:37:28 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1353,13 +1353,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-56E3OYQdKj6WZCUTZEx17QYXCrxURhR7VIu63nBwsMw="
+          "Value": "sha256-qUWdDEGqLJJqypSiy4g1XIQ5VJnTQvyslV6ljZnRdtY="
         }
       ]
     },
     {
-      "Route": "css/site.xucksheet4.css",
-      "AssetFile": "C:\\Users\\User\\Desktop\\Merito\\UNC-Merito\\wwwroot\\css\\site.css",
+      "Route": "css/styles.tffyftg7z6.css",
+      "AssetFile": "C:\\Users\\User\\Desktop\\Merito\\UNC-Merito\\wwwroot\\css\\styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1368,7 +1368,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "292025"
+          "Value": "292028"
         },
         {
           "Name": "Content-Type",
@@ -1376,11 +1376,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"56E3OYQdKj6WZCUTZEx17QYXCrxURhR7VIu63nBwsMw=\""
+          "Value": "\"qUWdDEGqLJJqypSiy4g1XIQ5VJnTQvyslV6ljZnRdtY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 12 Mar 2025 00:14:15 GMT"
+          "Value": "Wed, 12 Mar 2025 00:37:28 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1390,15 +1390,15 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "xucksheet4"
+          "Value": "tffyftg7z6"
         },
         {
           "Name": "label",
-          "Value": "css/site.css"
+          "Value": "css/styles.css"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-56E3OYQdKj6WZCUTZEx17QYXCrxURhR7VIu63nBwsMw="
+          "Value": "sha256-qUWdDEGqLJJqypSiy4g1XIQ5VJnTQvyslV6ljZnRdtY="
         }
       ]
     },
@@ -6251,7 +6251,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1130"
+          "Value": "333473"
         },
         {
           "Name": "Content-Type",
@@ -6259,11 +6259,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"0/3zBUGP3gFScgooWVvW5M/nWXm7zyvXjEwV8dIubSs=\""
+          "Value": "\"gb8NFb0dk4D8pLXUYzfGJFC659jf3BwUlZlYqlNopyc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 12 Mar 2025 00:02:19 GMT"
+          "Value": "Wed, 12 Mar 2025 00:29:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6273,7 +6273,97 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-0/3zBUGP3gFScgooWVvW5M/nWXm7zyvXjEwV8dIubSs="
+          "Value": "sha256-gb8NFb0dk4D8pLXUYzfGJFC659jf3BwUlZlYqlNopyc="
+        }
+      ]
+    },
+    {
+      "Route": "MeritoHealth.fwz77yi5dj.bundle.scp.css",
+      "AssetFile": "C:\\Users\\User\\Desktop\\Merito\\UNC-Merito\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\MeritoHealth.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "333473"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gb8NFb0dk4D8pLXUYzfGJFC659jf3BwUlZlYqlNopyc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Mar 2025 00:29:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fwz77yi5dj"
+        },
+        {
+          "Name": "label",
+          "Value": "MeritoHealth.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gb8NFb0dk4D8pLXUYzfGJFC659jf3BwUlZlYqlNopyc="
+        }
+      ]
+    },
+    {
+      "Route": "MeritoHealth.fwz77yi5dj.styles.css",
+      "AssetFile": "C:\\Users\\User\\Desktop\\Merito\\UNC-Merito\\obj\\Debug\\net8.0\\scopedcss\\bundle\\MeritoHealth.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "333473"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gb8NFb0dk4D8pLXUYzfGJFC659jf3BwUlZlYqlNopyc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Mar 2025 00:29:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fwz77yi5dj"
+        },
+        {
+          "Name": "label",
+          "Value": "MeritoHealth.styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gb8NFb0dk4D8pLXUYzfGJFC659jf3BwUlZlYqlNopyc="
         }
       ]
     },
@@ -6288,7 +6378,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1130"
+          "Value": "333473"
         },
         {
           "Name": "Content-Type",
@@ -6296,11 +6386,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"0/3zBUGP3gFScgooWVvW5M/nWXm7zyvXjEwV8dIubSs=\""
+          "Value": "\"gb8NFb0dk4D8pLXUYzfGJFC659jf3BwUlZlYqlNopyc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 12 Mar 2025 00:02:19 GMT"
+          "Value": "Wed, 12 Mar 2025 00:29:20 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6310,97 +6400,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-0/3zBUGP3gFScgooWVvW5M/nWXm7zyvXjEwV8dIubSs="
-        }
-      ]
-    },
-    {
-      "Route": "MeritoHealth.vpbujdehos.bundle.scp.css",
-      "AssetFile": "C:\\Users\\User\\Desktop\\Merito\\UNC-Merito\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\MeritoHealth.bundle.scp.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1130"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"0/3zBUGP3gFScgooWVvW5M/nWXm7zyvXjEwV8dIubSs=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 12 Mar 2025 00:02:19 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "vpbujdehos"
-        },
-        {
-          "Name": "label",
-          "Value": "MeritoHealth.bundle.scp.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-0/3zBUGP3gFScgooWVvW5M/nWXm7zyvXjEwV8dIubSs="
-        }
-      ]
-    },
-    {
-      "Route": "MeritoHealth.vpbujdehos.styles.css",
-      "AssetFile": "C:\\Users\\User\\Desktop\\Merito\\UNC-Merito\\obj\\Debug\\net8.0\\scopedcss\\bundle\\MeritoHealth.styles.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1130"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"0/3zBUGP3gFScgooWVvW5M/nWXm7zyvXjEwV8dIubSs=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 12 Mar 2025 00:02:19 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "vpbujdehos"
-        },
-        {
-          "Name": "label",
-          "Value": "MeritoHealth.styles.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-0/3zBUGP3gFScgooWVvW5M/nWXm7zyvXjEwV8dIubSs="
+          "Value": "sha256-gb8NFb0dk4D8pLXUYzfGJFC659jf3BwUlZlYqlNopyc="
         }
       ]
     }

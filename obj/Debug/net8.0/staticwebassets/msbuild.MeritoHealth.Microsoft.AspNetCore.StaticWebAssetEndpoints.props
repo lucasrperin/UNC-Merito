@@ -1,16 +1,16 @@
 ﻿<Project>
   <ItemGroup>
-    <StaticWebAssetEndpoint Include="_content/MeritoHealth/css/site.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/MeritoHealth/css/styles.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\styles.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-56E3OYQdKj6WZCUTZEx17QYXCrxURhR7VIu63nBwsMw="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"292025"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u002256E3OYQdKj6WZCUTZEx17QYXCrxURhR7VIu63nBwsMw=\u0022"},{"Name":"Last-Modified","Value":"Wed, 12 Mar 2025 00:14:15 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-qUWdDEGqLJJqypSiy4g1XIQ5VJnTQvyslV6ljZnRdtY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"292028"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022qUWdDEGqLJJqypSiy4g1XIQ5VJnTQvyslV6ljZnRdtY=\u0022"},{"Name":"Last-Modified","Value":"Wed, 12 Mar 2025 00:37:28 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/MeritoHealth/css/site.xucksheet4.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/MeritoHealth/css/styles.tffyftg7z6.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\styles.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"xucksheet4"},{"Name":"integrity","Value":"sha256-56E3OYQdKj6WZCUTZEx17QYXCrxURhR7VIu63nBwsMw="},{"Name":"label","Value":"_content/MeritoHealth/css/site.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"292025"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u002256E3OYQdKj6WZCUTZEx17QYXCrxURhR7VIu63nBwsMw=\u0022"},{"Name":"Last-Modified","Value":"Wed, 12 Mar 2025 00:14:15 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"tffyftg7z6"},{"Name":"integrity","Value":"sha256-qUWdDEGqLJJqypSiy4g1XIQ5VJnTQvyslV6ljZnRdtY="},{"Name":"label","Value":"_content/MeritoHealth/css/styles.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"292028"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022qUWdDEGqLJJqypSiy4g1XIQ5VJnTQvyslV6ljZnRdtY=\u0022"},{"Name":"Last-Modified","Value":"Wed, 12 Mar 2025 00:37:28 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/MeritoHealth/favicon.61n19gt1b8.ico">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico'))</AssetFile>
@@ -721,16 +721,16 @@
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1117"},{"Name":"Content-Type","Value":"text/plain"},{"Name":"ETag","Value":"\u0022hjIBkvmgxQXbNXK3B9YQ3t06RwLuQSQzC/dpvuB/lMk=\u0022"},{"Name":"Last-Modified","Value":"Wed, 12 Mar 2025 00:02:19 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/MeritoHealth/MeritoHealth.bundle.scp.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\MeritoHealth.vpbujdehos.bundle.scp.css'))</AssetFile>
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\MeritoHealth.fwz77yi5dj.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-0/3zBUGP3gFScgooWVvW5M/nWXm7zyvXjEwV8dIubSs="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1130"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00220/3zBUGP3gFScgooWVvW5M/nWXm7zyvXjEwV8dIubSs=\u0022"},{"Name":"Last-Modified","Value":"Wed, 12 Mar 2025 00:02:19 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-gb8NFb0dk4D8pLXUYzfGJFC659jf3BwUlZlYqlNopyc="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"333473"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022gb8NFb0dk4D8pLXUYzfGJFC659jf3BwUlZlYqlNopyc=\u0022"},{"Name":"Last-Modified","Value":"Wed, 12 Mar 2025 00:29:20 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/MeritoHealth/MeritoHealth.vpbujdehos.bundle.scp.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\MeritoHealth.vpbujdehos.bundle.scp.css'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/MeritoHealth/MeritoHealth.fwz77yi5dj.bundle.scp.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\MeritoHealth.fwz77yi5dj.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"vpbujdehos"},{"Name":"integrity","Value":"sha256-0/3zBUGP3gFScgooWVvW5M/nWXm7zyvXjEwV8dIubSs="},{"Name":"label","Value":"_content/MeritoHealth/MeritoHealth.bundle.scp.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1130"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00220/3zBUGP3gFScgooWVvW5M/nWXm7zyvXjEwV8dIubSs=\u0022"},{"Name":"Last-Modified","Value":"Wed, 12 Mar 2025 00:02:19 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"fwz77yi5dj"},{"Name":"integrity","Value":"sha256-gb8NFb0dk4D8pLXUYzfGJFC659jf3BwUlZlYqlNopyc="},{"Name":"label","Value":"_content/MeritoHealth/MeritoHealth.bundle.scp.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"333473"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022gb8NFb0dk4D8pLXUYzfGJFC659jf3BwUlZlYqlNopyc=\u0022"},{"Name":"Last-Modified","Value":"Wed, 12 Mar 2025 00:29:20 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
   </ItemGroup>
 </Project>
