@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MeritoHealth")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1da23db24d32366f11bbf5ad4ce91f94e0f95db2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6e28b04703e9c3ff5866a3e40cffb27c3327077b")]
 [assembly: System.Reflection.AssemblyProductAttribute("MeritoHealth")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MeritoHealth")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
