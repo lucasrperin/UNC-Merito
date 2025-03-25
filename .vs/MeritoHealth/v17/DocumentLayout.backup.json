@@ -1,14 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\Merito\\UNC-Merito\\",
+  "WorkspaceRootPath": "C:\\Users\\Taissa\\Desktop\\Merito\\UNC-Merito\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{342481F5-FD29-45F8-A770-BB8B3C4EDDE7}|MeritoHealth.csproj|c:\\users\\user\\desktop\\merito\\unc-merito\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{342481F5-FD29-45F8-A770-BB8B3C4EDDE7}|MeritoHealth.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{342481F5-FD29-45F8-A770-BB8B3C4EDDE7}|MeritoHealth.csproj|c:\\users\\taissa\\desktop\\merito\\unc-merito\\views\\prontuarios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{342481F5-FD29-45F8-A770-BB8B3C4EDDE7}|MeritoHealth.csproj|solutionrelative:views\\prontuarios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{342481F5-FD29-45F8-A770-BB8B3C4EDDE7}|MeritoHealth.csproj|c:\\users\\user\\desktop\\merito\\unc-merito\\wwwroot\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{342481F5-FD29-45F8-A770-BB8B3C4EDDE7}|MeritoHealth.csproj|c:\\users\\taissa\\desktop\\merito\\unc-merito\\models\\prontuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{342481F5-FD29-45F8-A770-BB8B3C4EDDE7}|MeritoHealth.csproj|solutionrelative:models\\prontuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{342481F5-FD29-45F8-A770-BB8B3C4EDDE7}|MeritoHealth.csproj|c:\\users\\taissa\\desktop\\merito\\unc-merito\\controllers\\prontuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{342481F5-FD29-45F8-A770-BB8B3C4EDDE7}|MeritoHealth.csproj|solutionrelative:controllers\\prontuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{342481F5-FD29-45F8-A770-BB8B3C4EDDE7}|MeritoHealth.csproj|c:\\users\\taissa\\desktop\\merito\\unc-merito\\wwwroot\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{342481F5-FD29-45F8-A770-BB8B3C4EDDE7}|MeritoHealth.csproj|solutionrelative:wwwroot\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{342481F5-FD29-45F8-A770-BB8B3C4EDDE7}|MeritoHealth.csproj|c:\\users\\taissa\\desktop\\merito\\unc-merito\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{342481F5-FD29-45F8-A770-BB8B3C4EDDE7}|MeritoHealth.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,28 +38,68 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Merito\\UNC-Merito\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Merito\\UNC-Merito\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-12T00:35:16.559Z",
+              "DocumentIndex": 3,
+              "Title": "styles.css",
+              "DocumentMoniker": "C:\\Users\\Taissa\\Desktop\\Merito\\UNC-Merito\\wwwroot\\css\\styles.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\styles.css",
+              "ToolTip": "C:\\Users\\Taissa\\Desktop\\Merito\\UNC-Merito\\wwwroot\\css\\styles.css",
+              "RelativeToolTip": "wwwroot\\css\\styles.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAALMBAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-19T00:26:07.157Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "styles.css",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Merito\\UNC-Merito\\wwwroot\\css\\styles.css",
-              "RelativeDocumentMoniker": "wwwroot\\css\\styles.css",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Merito\\UNC-Merito\\wwwroot\\css\\styles.css",
-              "RelativeToolTip": "wwwroot\\css\\styles.css",
-              "ViewState": "AgIAALEAAAAAAAAAAAAAAA4AAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-03-12T00:34:05.192Z"
+              "Title": "Prontuario.cs",
+              "DocumentMoniker": "C:\\Users\\Taissa\\Desktop\\Merito\\UNC-Merito\\Models\\Prontuario.cs",
+              "RelativeDocumentMoniker": "Models\\Prontuario.cs",
+              "ToolTip": "C:\\Users\\Taissa\\Desktop\\Merito\\UNC-Merito\\Models\\Prontuario.cs",
+              "RelativeToolTip": "Models\\Prontuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T23:25:34.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Prontuario.cs",
+              "DocumentMoniker": "C:\\Users\\Taissa\\Desktop\\Merito\\UNC-Merito\\Controllers\\Prontuario.cs",
+              "RelativeDocumentMoniker": "Controllers\\Prontuario.cs",
+              "ToolTip": "C:\\Users\\Taissa\\Desktop\\Merito\\UNC-Merito\\Controllers\\Prontuario.cs",
+              "RelativeToolTip": "Controllers\\Prontuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T23:20:41.765Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Taissa\\Desktop\\Merito\\UNC-Merito\\Views\\Prontuarios\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Prontuarios\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Taissa\\Desktop\\Merito\\UNC-Merito\\Views\\Prontuarios\\Index.cshtml",
+              "RelativeToolTip": "Views\\Prontuarios\\Index.cshtml",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAAAGgAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-18T23:13:52.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Taissa\\Desktop\\Merito\\UNC-Merito\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Taissa\\Desktop\\Merito\\UNC-Merito\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAHMAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-18T22:45:07.94Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -38,7 +38,7 @@
                 <div class="sb-sidenav-menu">
                     <div class="nav">
                         <div class="sb-sidenav-menu-heading">Principal</div>
-                        <a class="nav-link" asp-controller="Dashboard" asp-action="Index">
+                        <a class="nav-link" href="/Home/Index">
                             <div class="sb-nav-link-icon">
                                 <i class="fas fa-tachometer-alt"></i>
                             </div>
@@ -76,6 +76,23 @@
                             <nav class="sb-sidenav-menu-nested nav">
                                 <a class="nav-link" asp-controller="Medicos" asp-action="Index">
                                     Lista de Médicos
+                                </a>
+                            </nav>
+                        </div>
+                        <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseProntuarios"
+                           aria-expanded="false" aria-controls="collapseProntuarios">
+                            <div class="sb-nav-link-icon">
+                                <i class="fas fa-user-md"></i>
+                            </div>
+                            Prontuários
+                            <div class="sb-sidenav-collapse-arrow">
+                                <i class="fas fa-angle-down"></i>
+                            </div>
+                        </a>
+                        <div class="collapse" id="collapseProntuarios" aria-labelledby="headingTwo" data-bs-parent="#sidenavAccordion">
+                            <nav class="sb-sidenav-menu-nested nav">
+                                <a class="nav-link" asp-controller="Prontuarios" asp-action="index">
+                                    Lista de Prontuários
                                 </a>
                             </nav>
                         </div>

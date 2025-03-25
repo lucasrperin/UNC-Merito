@@ -1,0 +1,210 @@
+﻿@{
+    Layout = "_Layout"; // Define o layout padrão
+    ViewData["Title"] = "Prontuários"; // Define o título da página
+}
+
+<div id="layoutSidenav_content">
+    <main>
+        <div class="container-fluid px-4">
+            <h1 class="mt-4">Prontuários</h1>
+            <div class="card mb-4">
+                <div class="card-header d-flex justify-content-between align-items-center">
+                    <div>
+                        <i class="fas fa-table me-1"></i>
+                        Lista de Pacientes
+                    </div>
+                    <button class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#newProntuarioModal">Novo Prontuário</button>
+                </div>
+                <div class="card-body">
+                    <table id="prontuarioTable" class="table">
+                        <thead>
+                            <tr>
+                                <th>Paciente</th>
+                                <th>Relato</th>
+                                <th>Médico</th>
+                                <th>Exames</th>
+                                <th>Diagnostico</th>
+                                <th>Data Consulta</th>
+                                <th>Tipo Consulta</th>
+                                <th>Medicamentos</th>
+                                <th>Observações</th>
+                                <th>Status</th>
+                                <th>Ações</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Maria Silva</td>
+                                <td>Dor no braço</td>
+                                <td>João da Silva</td>
+                                <td>Raio X</td>
+                                <td>Fratura no Braço</td>
+                                <td>20.01.2025</td>
+                                <td>Emergência</td>
+                                <td>Morfina</td>
+                                <td>Cliente tomou remédio na veia</td>
+                                <td>Aberto</td>
+                                <td class="actions">
+                                    <button class="btn btn-sm btn-info" onclick="viewDetails(this)">Detalhes</button>
+                                    <button class="btn btn-sm btn-warning" onclick="editRow(this)">Editar</button>
+                                    <button class="btn btn-sm btn-danger" onclick="deleteRow(this)">Excluir</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Maria Silva</td>
+                                <td>Dor no braço</td>
+                                <td>João da Silva</td>
+                                <td>Raio X</td>
+                                <td>Fratura no Braço</td>
+                                <td>20.01.2025</td>
+                                <td>Emergência</td>
+                                <td>Morfina</td>
+                                <td>Cliente tomou remédio na veia</td>
+                                <td>Aberto</td>
+                                <td class="actions">
+                                    <button class="btn btn-sm btn-info" onclick="viewDetails(this)">Detalhes</button>
+                                    <button class="btn btn-sm btn-warning" onclick="editRow(this)">Editar</button>
+                                    <button class="btn btn-sm btn-danger" onclick="deleteRow(this)">Excluir</button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal Novo Prontuário -->
+    <div class="modal fade" id="newProntuarioModal" tabindex="-1" aria-labelledby="newProntuarioModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="newProntuarioModalLabel">Novo Prontuário</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="newProntuarioForm">
+                        <div class="mb-3">
+                            <label for="paciente" class="form-label">Paciente</label>
+                            <input type="text" class="form-control" id="paciente" required />
+                        </div>
+                        <div class="mb-3">
+                            <label for="relato" class="form-label">Relato</label>
+                            <input type="text" class="form-control" id="relato" required />
+                        </div>
+                        <div class="mb-3">
+                            <label for="medico" class="form-label">Médico</label>
+                            <input type="text" class="form-control" id="medico" required />
+                        </div>
+                        <div class="mb-3">
+                            <label for="exames" class="form-label">Exames</label>
+                            <input type="text" class="form-control" id="exames" required />
+                        </div>
+                        <div class="mb-3">
+                            <label for="diagnostico" class="form-label">Diagnóstico</label>
+                            <input type="text" class="form-control" id="diagnostico" required />
+                        </div>
+                        <div class="mb-3">
+                            <label for="dataConsulta" class="form-label">Data da Consulta</label>
+                            <input type="date" class="form-control" id="dataConsulta" required />
+                        </div>
+                        <div class="mb-3">
+                            <label for="tipoConsulta" class="form-label">Tipo da Consulta</label>
+                            <input type="text" class="form-control" id="tipoConsulta" required />
+                        </div>
+                        <div class="mb-3">
+                            <label for="medicamentos" class="form-label">Medicamentos</label>
+                            <input type="text" class="form-control" id="medicamentos" required />
+                        </div>
+                        <div class="mb-3">
+                            <label for="observacoes" class="form-label">Observações</label>
+                            <input type="text" class="form-control" id="observacoes" required />
+                        </div>
+                        <div class="mb-3">
+                            <label for="ativo" class="form-label">Ativo</label>
+                            <select class="form-select" id="ativo" required>
+                                <option value="Sim">Sim</option>
+                                <option value="Não">Não</option>
+                            </select>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                    <button type="button" class="btn btn-primary" id="saveProntuarioBtn">Salvar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Detalhes -->
+    <div class="modal fade" id="detailsModal" tabindex="-1" aria-labelledby="detailsModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="detailsModalLabel">Detalhes do Prontuário</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" id="detailsContent">
+                    <!-- Conteúdo será preenchido dinamicamente -->
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="py-4 bg-light mt-auto">
+        <div class="container-fluid px-4">
+            <div class="d-flex align-items-center justify-content-between small">
+                <div class="text-muted">Copyright &copy; Mérito Health</div>
+                <div>
+                    <a href="#">Política de Privacidade</a>
+                    &middot;
+                    <a href="#">Termos &amp; Condições</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+
+@section Scripts {
+    <script>
+        function viewDetails(button) {
+            // Lógica para exibir detalhes do prontuário
+            const row = button.closest('tr');
+            const paciente = row.cells[0].innerText;
+            const medico = row.cells[1].innerText;
+            const relato = row.cells[2].innerText;
+            const exames = row.cells[3].innerText;
+            const ativo = row.cells[4].innerText;
+
+            const detailsContent = `
+                <p><strong>Paciente:</strong> ${paciente}</p>
+                <p><strong>Medico:</strong> ${medico}</p>
+                <p><strong>Relato:</strong> ${relato}</p>
+                <p><strong>Exames:</strong> ${exames}</p>
+                <p><strong>Ativo:</strong> ${ativo}</p>
+            `;
+
+            document.getElementById('detailsContent').innerHTML = detailsContent;
+            new bootstrap.Modal(document.getElementById('detailsModal')).show();
+        }
+
+        function editRow(button) {
+            // Lógica para editar o prontuário
+            alert('Editar prontuário');
+        }
+
+        function deleteRow(button) {
+            // Lógica para excluir o prontuário
+            alert('Excluir prontuário');
+        }
+
+        document.getElementById('saveProntuariotBtn').addEventListener('click', function () {
+            // Lógica para salvar o novo prontuário
+            alert('Salvar prontuário');
+        });
+    </script>
+}
