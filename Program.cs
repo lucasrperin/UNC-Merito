@@ -1,3 +1,6 @@
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using MeritoHealth.Data;
 namespace MeritoHealth
 {
     public class Program
@@ -5,6 +8,8 @@ namespace MeritoHealth
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
+            builder.Services.AddDbContext<MeritoHealthContext>(options =>
+                options.UseSqlServer(builder.Configuration.GetConnectionString("MeritoHealthContext") ?? throw new InvalidOperationException("Connection string 'MeritoHealthContext' not found.")));
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();

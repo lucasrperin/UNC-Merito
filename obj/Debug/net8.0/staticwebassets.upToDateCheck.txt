@@ -1,3 +1,4 @@
+wwwroot\css\paciente.css
 wwwroot\css\styles.css
 wwwroot\favicon.ico
 wwwroot\js\site.js

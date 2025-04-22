@@ -1,26 +1,38 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Taissa\\Desktop\\Merito\\UNC-Merito\\",
+  "WorkspaceRootPath": "C:\\xampp\\htdocs\\UNC-Merito\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{342481F5-FD29-45F8-A770-BB8B3C4EDDE7}|MeritoHealth.csproj|c:\\users\\taissa\\desktop\\merito\\unc-merito\\views\\prontuarios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{342481F5-FD29-45F8-A770-BB8B3C4EDDE7}|MeritoHealth.csproj|solutionrelative:views\\prontuarios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{342481F5-FD29-45F8-A770-BB8B3C4EDDE7}|MeritoHealth.csproj|c:\\xampp\\htdocs\\unc-merito\\wwwroot\\css\\paciente.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{342481F5-FD29-45F8-A770-BB8B3C4EDDE7}|MeritoHealth.csproj|solutionrelative:wwwroot\\css\\paciente.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{342481F5-FD29-45F8-A770-BB8B3C4EDDE7}|MeritoHealth.csproj|c:\\users\\taissa\\desktop\\merito\\unc-merito\\models\\prontuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{342481F5-FD29-45F8-A770-BB8B3C4EDDE7}|MeritoHealth.csproj|solutionrelative:models\\prontuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{342481F5-FD29-45F8-A770-BB8B3C4EDDE7}|MeritoHealth.csproj|c:\\users\\taissa\\desktop\\merito\\unc-merito\\controllers\\prontuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{342481F5-FD29-45F8-A770-BB8B3C4EDDE7}|MeritoHealth.csproj|solutionrelative:controllers\\prontuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{342481F5-FD29-45F8-A770-BB8B3C4EDDE7}|MeritoHealth.csproj|c:\\users\\taissa\\desktop\\merito\\unc-merito\\wwwroot\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{342481F5-FD29-45F8-A770-BB8B3C4EDDE7}|MeritoHealth.csproj|c:\\xampp\\htdocs\\unc-merito\\wwwroot\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{342481F5-FD29-45F8-A770-BB8B3C4EDDE7}|MeritoHealth.csproj|solutionrelative:wwwroot\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{342481F5-FD29-45F8-A770-BB8B3C4EDDE7}|MeritoHealth.csproj|c:\\users\\taissa\\desktop\\merito\\unc-merito\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{342481F5-FD29-45F8-A770-BB8B3C4EDDE7}|MeritoHealth.csproj|c:\\xampp\\htdocs\\unc-merito\\views\\pacientes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{342481F5-FD29-45F8-A770-BB8B3C4EDDE7}|MeritoHealth.csproj|solutionrelative:views\\pacientes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{342481F5-FD29-45F8-A770-BB8B3C4EDDE7}|MeritoHealth.csproj|c:\\xampp\\htdocs\\unc-merito\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{342481F5-FD29-45F8-A770-BB8B3C4EDDE7}|MeritoHealth.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{342481F5-FD29-45F8-A770-BB8B3C4EDDE7}|MeritoHealth.csproj|c:\\xampp\\htdocs\\unc-merito\\views\\pacientes\\_pacientedetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{342481F5-FD29-45F8-A770-BB8B3C4EDDE7}|MeritoHealth.csproj|solutionrelative:views\\pacientes\\_pacientedetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{342481F5-FD29-45F8-A770-BB8B3C4EDDE7}|MeritoHealth.csproj|c:\\xampp\\htdocs\\unc-merito\\views\\pacientes\\_pacientedeleteform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{342481F5-FD29-45F8-A770-BB8B3C4EDDE7}|MeritoHealth.csproj|solutionrelative:views\\pacientes\\_pacientedeleteform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{342481F5-FD29-45F8-A770-BB8B3C4EDDE7}|MeritoHealth.csproj|c:\\xampp\\htdocs\\unc-merito\\views\\pacientes\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{342481F5-FD29-45F8-A770-BB8B3C4EDDE7}|MeritoHealth.csproj|solutionrelative:views\\pacientes\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{342481F5-FD29-45F8-A770-BB8B3C4EDDE7}|MeritoHealth.csproj|c:\\xampp\\htdocs\\unc-merito\\views\\pacientes\\_pacienteform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{342481F5-FD29-45F8-A770-BB8B3C4EDDE7}|MeritoHealth.csproj|solutionrelative:views\\pacientes\\_pacienteform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,67 +50,106 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "styles.css",
-              "DocumentMoniker": "C:\\Users\\Taissa\\Desktop\\Merito\\UNC-Merito\\wwwroot\\css\\styles.css",
-              "RelativeDocumentMoniker": "wwwroot\\css\\styles.css",
-              "ToolTip": "C:\\Users\\Taissa\\Desktop\\Merito\\UNC-Merito\\wwwroot\\css\\styles.css",
-              "RelativeToolTip": "wwwroot\\css\\styles.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAALMBAAAMAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "paciente.css",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\UNC-Merito\\wwwroot\\css\\paciente.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\paciente.css",
+              "ToolTip": "C:\\xampp\\htdocs\\UNC-Merito\\wwwroot\\css\\paciente.css",
+              "RelativeToolTip": "wwwroot\\css\\paciente.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-03-19T00:26:07.157Z",
+              "WhenOpened": "2025-04-22T23:20:05.846Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Prontuario.cs",
-              "DocumentMoniker": "C:\\Users\\Taissa\\Desktop\\Merito\\UNC-Merito\\Models\\Prontuario.cs",
-              "RelativeDocumentMoniker": "Models\\Prontuario.cs",
-              "ToolTip": "C:\\Users\\Taissa\\Desktop\\Merito\\UNC-Merito\\Models\\Prontuario.cs",
-              "RelativeToolTip": "Models\\Prontuario.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T23:25:34.578Z",
+              "DocumentIndex": 5,
+              "Title": "_PacienteDeleteForm.cshtml",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\UNC-Merito\\Views\\Pacientes\\_PacienteDeleteForm.cshtml",
+              "RelativeDocumentMoniker": "Views\\Pacientes\\_PacienteDeleteForm.cshtml",
+              "ToolTip": "C:\\xampp\\htdocs\\UNC-Merito\\Views\\Pacientes\\_PacienteDeleteForm.cshtml",
+              "RelativeToolTip": "Views\\Pacientes\\_PacienteDeleteForm.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-22T23:09:55.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\UNC-Merito\\Views\\Pacientes\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Pacientes\\Edit.cshtml",
+              "ToolTip": "C:\\xampp\\htdocs\\UNC-Merito\\Views\\Pacientes\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Pacientes\\Edit.cshtml",
+              "ViewState": "AgIAADYAAAAAAAAAAAAcwE8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-22T22:40:41.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_PacienteForm.cshtml",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\UNC-Merito\\Views\\Pacientes\\_PacienteForm.cshtml",
+              "RelativeDocumentMoniker": "Views\\Pacientes\\_PacienteForm.cshtml",
+              "ToolTip": "C:\\xampp\\htdocs\\UNC-Merito\\Views\\Pacientes\\_PacienteForm.cshtml",
+              "RelativeToolTip": "Views\\Pacientes\\_PacienteForm.cshtml",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAE4AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-22T22:24:11.778Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Prontuario.cs",
-              "DocumentMoniker": "C:\\Users\\Taissa\\Desktop\\Merito\\UNC-Merito\\Controllers\\Prontuario.cs",
-              "RelativeDocumentMoniker": "Controllers\\Prontuario.cs",
-              "ToolTip": "C:\\Users\\Taissa\\Desktop\\Merito\\UNC-Merito\\Controllers\\Prontuario.cs",
-              "RelativeToolTip": "Controllers\\Prontuario.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T23:20:41.765Z",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\UNC-Merito\\Views\\Pacientes\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Pacientes\\Index.cshtml",
+              "ToolTip": "C:\\xampp\\htdocs\\UNC-Merito\\Views\\Pacientes\\Index.cshtml*",
+              "RelativeToolTip": "Views\\Pacientes\\Index.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-16T23:22:52.825Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Taissa\\Desktop\\Merito\\UNC-Merito\\Views\\Prontuarios\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Prontuarios\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Taissa\\Desktop\\Merito\\UNC-Merito\\Views\\Prontuarios\\Index.cshtml",
-              "RelativeToolTip": "Views\\Prontuarios\\Index.cshtml",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAAAE0AAAB5AAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\UNC-Merito\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\xampp\\htdocs\\UNC-Merito\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-18T23:13:52.306Z",
+              "WhenOpened": "2025-04-22T22:15:28.624Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "styles.css",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\UNC-Merito\\wwwroot\\css\\styles.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\styles.css",
+              "ToolTip": "C:\\xampp\\htdocs\\UNC-Merito\\wwwroot\\css\\styles.css*",
+              "RelativeToolTip": "wwwroot\\css\\styles.css*",
+              "ViewState": "AgIAADgyAAAAAAAAAAAAwEQyAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-22T23:17:00.107Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Taissa\\Desktop\\Merito\\UNC-Merito\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Taissa\\Desktop\\Merito\\UNC-Merito\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAAHMAAAAhAAAAAAAAAA==",
+              "Title": "_PacienteDetails.cshtml",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\UNC-Merito\\Views\\Pacientes\\_PacienteDetails.cshtml",
+              "RelativeDocumentMoniker": "Views\\Pacientes\\_PacienteDetails.cshtml",
+              "ToolTip": "C:\\xampp\\htdocs\\UNC-Merito\\Views\\Pacientes\\_PacienteDetails.cshtml",
+              "RelativeToolTip": "Views\\Pacientes\\_PacienteDetails.cshtml",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAcwCEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-18T22:45:07.94Z",
+              "WhenOpened": "2025-04-22T23:14:00.747Z",
               "EditorCaption": ""
             }
           ]

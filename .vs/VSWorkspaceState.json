@@ -1,6 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Data",
+    "\\Views",
+    "\\Views\\Home"
   ],
+  "SelectedNode": "\\Data\\UNCMeritoHealthContext.cs",
   "PreviewInSolutionExplorer": false
 }
