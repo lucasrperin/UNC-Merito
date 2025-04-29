@@ -1,0 +1,121 @@
+﻿@model IEnumerable<MeritoHealth.Models.Alergia>
+@{
+    ViewData["Title"] = "Alergias";
+}
+
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <h1>Alergias</h1>
+    <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#createAlergiaModal">
+        <i class="fa fa-plus me-1"></i> Nova Alergia
+    </button>
+</div>
+
+<table class="table table-striped table-fixed">
+    <thead class="table-light">
+        <tr>
+            <th>@Html.DisplayNameFor(m => m.Nome)</th>
+            <th>@Html.DisplayNameFor(m => m.Descricao)</th>
+            <th class="text-center">Ações</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td class="text-ellipsis" style="max-width:200px">
+                    @Html.DisplayFor(m => item.Nome)
+                </td>
+                <td class="text-ellipsis" style="max-width:300px">
+                    @Html.DisplayFor(m => item.Descricao)
+                </td>
+                <td class="text-center">
+                    <button type="button" class="btn btn-sm btn-warning me-1"
+                            data-bs-toggle="modal"
+                            data-bs-target="#editAlergiaModal-@item.IdAlergia">
+                        <i class="fa fa-edit"></i>
+                    </button>
+                    <button type="button" class="btn btn-sm btn-info me-1"
+                            data-bs-toggle="modal"
+                            data-bs-target="#detailsAlergiaModal-@item.IdAlergia">
+                        <i class="fa fa-eye"></i>
+                    </button>
+                    <button type="button" class="btn btn-sm btn-danger"
+                            data-bs-toggle="modal"
+                            data-bs-target="#deleteAlergiaModal-@item.IdAlergia">
+                        <i class="fa fa-trash"></i>
+                    </button>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<!-- Modal de criação -->
+<div class="modal fade" id="createAlergiaModal" tabindex="-1" aria-labelledby="createAlergiaModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="createAlergiaModalLabel">Nova Alergia</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                @await Html.PartialAsync("_AlergiaForm", new MeritoHealth.Models.Alergia())
+            </div>
+        </div>
+    </div>
+</div>
+
+@* Modals para cada item *@
+@foreach (var item in Model)
+{
+    <!-- Editar -->
+    <div class="modal fade" id="editAlergiaModal-@item.IdAlergia" tabindex="-1" aria-labelledby="editAlergiaLabel-@item.IdAlergia" aria-hidden="true">
+        <div class="modal-dialog modal-md">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="editAlergiaLabel-@item.IdAlergia">Editar Alergia</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    @await Html.PartialAsync("_AlergiaForm", item)
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Detalhes -->
+    <div class="modal fade" id="detailsAlergiaModal-@item.IdAlergia" tabindex="-1" aria-labelledby="detailsAlergiaLabel-@item.IdAlergia" aria-hidden="true">
+        <div class="modal-dialog modal-md">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="detailsAlergiaLabel-@item.IdAlergia">Detalhes da Alergia</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    @await Html.PartialAsync("_AlergiaDetails", item)
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Excluir -->
+    <div class="modal fade" id="deleteAlergiaModal-@item.IdAlergia" tabindex="-1" aria-labelledby="deleteAlergiaLabel-@item.IdAlergia" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="deleteAlergiaLabel-@item.IdAlergia">Excluir Alergia</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    @await Html.PartialAsync("_AlergiaDelete", item)
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

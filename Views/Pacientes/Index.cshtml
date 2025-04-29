@@ -1,0 +1,201 @@
+﻿@model IEnumerable<MeritoHealth.Models.Paciente>
+@{
+    ViewData["Title"] = "Pacientes";
+}
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+ 
+    <link href="~/css/paciente.css" rel="stylesheet" />
+    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+</head>
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <h1>Pacientes</h1>
+    <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#createPacienteModal">
+        <i class="fa fa-plus me-1"></i> Novo Paciente
+    </button>
+</div>
+
+<table class="table table-striped">
+    <thead class="table-light">
+        <tr>
+            <th>@Html.DisplayNameFor(m => m.Nome)</th>
+            <th>@Html.DisplayNameFor(m => m.DtNascimento)</th>
+            <th>@Html.DisplayNameFor(m => m.Genero)</th>
+            <th>@Html.DisplayNameFor(m => m.Endereco)</th>
+            <th>@Html.DisplayNameFor(m => m.TipoSanguineo)</th>
+            <th>@Html.DisplayNameFor(m => m.CondicoesCronicas)</th>
+            <th>@Html.DisplayNameFor(m => m.ContatoEmergencia)</th>
+            <th class="text-center">Ações</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td class="text-ellipsis" style="max-width: 200px;">@Html.DisplayFor(m => item.Nome)</td>
+                <td>@Html.DisplayFor(m => item.DtNascimento)</td>
+                <td>@Html.DisplayFor(m => item.Genero)</td>
+                <td>@Html.DisplayFor(m => item.Endereco)</td>
+                <td>@Html.DisplayFor(m => item.TipoSanguineo)</td>
+                <td>@Html.DisplayFor(m => item.CondicoesCronicas)</td>
+                <td>@Html.DisplayFor(m => item.ContatoEmergencia)</td>
+                <td class="text-center">
+                    <button type="button"
+                             class="btn btn-sm btn-warning me-1"
+                             data-bs-toggle="modal"
+                             data-bs-target="#editPacienteModal-@item.IdPaciente"
+                             title="Editar">
+                           <i class="fa fa-edit"></i>
+                    </button>
+                    <button type="button"
+                            class="btn btn-sm btn-info me-1"
+                            data-bs-toggle="modal"
+                            data-bs-target="#detailsPacienteModal-@item.IdPaciente"
+                            title="Detalhes">
+                      <i class="fa fa-eye"></i>
+                    </button>
+                    <button type="button"
+                            class="btn btn-sm btn-danger"
+                            data-bs-toggle="modal"
+                            data-bs-target="#deletePacienteModal-@item.IdPaciente"
+                            title="Excluir">
+                          <i class="fa fa-trash"></i
+                    </button>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<!-- Modal de criação -->
+<div class="modal fade" id="createPacienteModal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Novo Paciente</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <!-- *vazio* até abrir -->
+      <div class="modal-body" id="createModalBody"></div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal de edição -->
+@foreach (var item in Model)
+{
+    <div class="modal fade"
+         id="editPacienteModal-@item.IdPaciente"
+         tabindex="-1"
+         aria-labelledby="editPacienteLabel-@item.IdPaciente"
+         aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="editPacienteLabel-@item.IdPaciente">
+                        Editar Paciente
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    @await Html.PartialAsync("_PacienteEditForm", item)
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+<!-- Modal de detalhes  -->
+@foreach (var item in Model)
+{
+  <div class="modal fade"
+       id="detailsPacienteModal-@item.IdPaciente"
+       tabindex="-1"
+       aria-labelledby="detailsPacienteLabel-@item.IdPaciente"
+       aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="detailsPacienteLabel-@item.IdPaciente">
+            Detalhes do Paciente
+          </h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+        </div>
+        <div class="modal-body">
+          @await Html.PartialAsync("_PacienteDetails", item)
+        </div>
+      </div>
+    </div>
+  </div>
+}
+
+<!-- Modal de exclusão -->
+@foreach (var item in Model)
+{
+  <div class="modal fade"
+       id="deletePacienteModal-@item.IdPaciente"
+       tabindex="-1"
+       aria-labelledby="deletePacienteLabel-@item.IdPaciente"
+       aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="deletePacienteLabel-@item.IdPaciente">
+            Excluir Paciente
+          </h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+        </div>
+        <div class="modal-body">
+          @await Html.PartialAsync("_PacienteDeleteForm", item)
+        </div>
+      </div>
+    </div>
+  </div>
+}
+
+
+@section Scripts {
+  @await Html.PartialAsync("_ValidationScriptsPartial")
+
+  <script>
+    const modalEl = document.getElementById('createPacienteModal');
+    const bodyEl  = document.getElementById('createModalBody');
+
+    // 1) carrega o form sempre que o modal abrir
+    modalEl.addEventListener('show.bs.modal', async () => {
+      const html = await fetch('@Url.Action("Create","Pacientes")')
+                        .then(r => r.text());
+      bodyEl.innerHTML = html;
+    });
+
+    // 2) intercepta qualquer submit dentro do modal
+    modalEl.addEventListener('submit', async e => {
+      e.preventDefault();
+      const form = e.target.closest('form');
+      if (!form) return;
+
+      const data = new FormData(form);
+      const res  = await fetch(form.action, {
+        method: 'POST',
+        body: data,
+        headers: { 'X-Requested-With': 'XMLHttpRequest' }
+      });
+
+      const ct = res.headers.get('Content-Type') || '';
+      if (ct.includes('application/json')) {
+        const { success } = await res.json();
+        if (success) {
+          bootstrap.Modal.getInstance(modalEl).hide();
+          location.reload();
+        }
+      } else {
+        // se retornou HTML (partial com erros), injeta de novo
+        bodyEl.innerHTML = await res.text();
+      }
+    });
+  </script>
+}
+
+

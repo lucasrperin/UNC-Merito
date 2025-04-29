@@ -1,0 +1,14 @@
+﻿@model MeritoHealth.Models.Alergia
+
+<p>Tem certeza que deseja excluir a alergia <strong>@Model.Nome</strong>?</p>
+
+<form asp-action="Delete"
+      asp-controller="Alergias"
+      asp-route-id="@Model.IdAlergia"
+      method="post">
+    @Html.AntiForgeryToken()
+    <div class="text-end">
+        <button type="button" class="btn btn-secondary me-2" data-bs-dismiss="modal">Cancelar</button>
+        <button type="submit" class="btn btn-danger">Excluir</button>
+    </div>
+</form>

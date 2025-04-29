@@ -1,0 +1,14 @@
+﻿@model MeritoHealth.Models.Paciente
+
+<p>Tem certeza que deseja excluir o paciente <strong>@Model.Nome</strong>?</p>
+
+<form asp-action="Delete"
+      asp-controller="Pacientes"
+      asp-route-id="@Model.IdPaciente"
+      method="post">
+    @Html.AntiForgeryToken()
+    <div class="text-end">
+        <button type="button" class="btn btn-secondary me-2" data-bs-dismiss="modal">Cancelar</button>
+        <button type="submit" class="btn btn-danger">Excluir</button>
+    </div>
+</form>

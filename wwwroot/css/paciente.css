@@ -1,0 +1,12 @@
+﻿/* para tabelas com largura fixa */
+.table-fixed {
+    table-layout: fixed;
+    width: 100%;
+}
+
+/* pra qualquer elemento que precise truncar texto */
+.text-ellipsis {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

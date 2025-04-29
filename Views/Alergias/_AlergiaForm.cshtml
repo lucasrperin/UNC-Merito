@@ -1,0 +1,26 @@
+﻿@model MeritoHealth.Models.Alergia
+
+<form asp-action="@(Model.IdAlergia == 0 ? "Create" : "Edit")"
+      asp-controller="Alergias"
+      asp-route-id="@Model.IdAlergia"
+      method="post">
+    @Html.AntiForgeryToken()
+    <input type="hidden" asp-for="IdAlergia" />
+
+    <div class="mb-3">
+        <label asp-for="Nome" class="form-label"></label>
+        <input asp-for="Nome" class="form-control" />
+        <span asp-validation-for="Nome" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Descricao" class="form-label"></label>
+        <input asp-for="Descricao" class="form-control" />
+        <span asp-validation-for="Descricao" class="text-danger"></span>
+    </div>
+
+    <div class="text-end">
+        <button type="button" class="btn btn-secondary me-2" data-bs-dismiss="modal">Cancelar</button>
+        <button type="submit" class="btn btn-primary">Salvar</button>
+    </div>
+</form>
